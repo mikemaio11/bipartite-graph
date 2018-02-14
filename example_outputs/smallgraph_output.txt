@@ -1,0 +1,12 @@
+Yes, the graph is bipartite
+Valid coloring:
+1 red
+2 blue
+3 red
+4 red
+5 blue
+6 red
+7 blue
+8 blue
+9 red
+10 blue
