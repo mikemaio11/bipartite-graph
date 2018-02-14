@@ -1,4 +1,4 @@
-Description​:
+Description:
 My program utilizes an adjacency list to store the graph as to prevent memory overflow that an
 adjacency matrix may cause. However, the graph is determined to be bipartite or not as it’s
 built. By assigning a color to each value as it’s added to the list, I can simply check if any
@@ -11,7 +11,7 @@ output file. If the graph is fully constructed, then it must be bipartite becaus
 colors ever clashed. In this scenario, we simply write the colors array to the file to show a valid
 coloring of the graph and no further work is needed.
 
-Time​ ​Analysis:
+Time Analysis:
 Construction of the graph takes linear time. If there’s an odd cycle it may take less, but we
 assume runtime for that is O(V). If the graph is bipartite we write it to the file in Θ(V) time.
 Otherwise a depth first search is called on the graph, which runs in O(V+E) time. An unlikely,
