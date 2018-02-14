@@ -7,5 +7,7 @@ vertex, a space, and the next adjacent vertex. For example, if vertex 1 is adjac
 a line "1 2" followed by a line "1 3". This does not need to be repeated for the opposite direction, so
 "2 1" is not neccassary.
 
+The graph does not need to be connected.
+
 Example input files and their corresponding outputs are provided in /example_inputs and /example_outputs
 respectively.
